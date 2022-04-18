@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>
+		Student Survey Form using HTML and CSS
+	</title>
+
+        
+	
+</head>
+
+<body>
+	<h1>Student Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				First Name *
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text" required
+				id="name"
+				placeholder="Enter your First Name" />
+		</div>
+
+
+
+                <div class="form-control">
+			<label for="name" id="label-name">
+				Last Name *
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text" required
+				id="name"
+				placeholder="Enter your Last Name" />
+		</div>
+
+		
+
+		<div class="form-control">
+			<label for="street_address" id="label-street_address">
+				Street Address *
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text" required
+				id="street_address"
+				placeholder="Street Address" />
+		</div>
+
+
+
+                <div class="form-control">
+			<label for="city" id="label-city">
+				City *
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text" required
+				id="city"
+				placeholder="City" />
+		</div>
+
+
+                <div class="form-control">
+			<label for="state" id="label-state">
+				State *
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text" required
+				id="state"
+				placeholder="State" />
+		</div>
+
+
+
+                <div class="form-control">
+                        <label for="zip_code" id="label-zip_code">
+                                Zipcode *
+                        </label>
+ 
+                        <!-- Input Type Text -->
+                        <input type="text" required
+                                id="zip_code"
+                                placeholder="Enter Zipcode" />
+                </div>
+
+
+                 <div class="form-control">
+                        <label for="mob_no" id="label-mob_no">
+                                Mobile Number *
+                        </label>
+ 
+                        <!-- Input Type Text -->
+                        <input type="text" required
+                                id="mob_no"
+                                placeholder="Enter Mobile Number" />
+                 </div>
+
+
+                 <div class="form-control">
+                        <label for="email" id="label-email">
+                                Email *
+                        </label>
+ 
+                        <!-- Input Type Email-->
+                        <input type="email" required
+                                id="email"
+                                placeholder="Enter your email" />
+                 
+
+                 </div>
+
+               
+                 <div class="form-control">
+                        <label for="date" id="label-date">
+                                Date of Survey *
+                        </label>
+ 
+                        <!-- Input Type Text -->
+                        <input type="text" required
+                                id="date"
+                                placeholder="mm/dd/yyyy" />
+                 </div>
+
+
+
+                 	<div class="form-control">
+			<label>
+				What do you like most about the campus?
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Students</label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Location</label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Campus</label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Atmosphere</label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Dorm Rooms</label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Sports</label>
+			
+		</div>
+
+
+                 
+
+
+		<div class="form-control">
+			<label>
+				How you became interested in the university?
+				
+			</label>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Friends
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Television
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Internet
+			</label>
+
+                        <label for="recommed-4">
+				<input type="radio"
+					id="recommed-4"
+					name="recommed">Social Media
+			</label>
+		
+                        <label for="recommed-5">
+				<input type="radio"
+					id="recommed-5"
+					name="recommed">Others
+			</label>
+
+
+
+                </div>
+
+		
+
+
+
+                <div class="form-control">
+                        <label>
+                                Do you recommend this university to other students?
+                        </label>	
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+                        
+				<option value="vl">Very Likely</option>
+				<option value="l">Likely</option>
+				<option value="u">
+					Unlikely
+				</option>
+				
+			</select>
+		</div>
+
+		<div class="form-control">
+		                
+                        <label for="Ticekt" id="label-mov_t">
+                                Try your luck for movie tickets!
+                        </label>
+ 
+                        <!-- Input Type Text -->
+                        <input type="text"
+                                id="raf"
+                                placeholder="Raffel" />
+                 </div>
+
+		<div class="form-control">
+			<label for="comment">
+				Additional Comments
+			</label>
+
+
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">Submit</button>
+                <button type="cancel" value="cancel">Cancel</button>
+			
+	</form>
+</body>
+
+</html>
+
